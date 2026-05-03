@@ -21,7 +21,7 @@ class Aparat:
         browser.get(url)
         time.sleep(25)
         vid_name = browser.find_element(By.XPATH,'/html/body/div[1]/div[2]/div/div[1]/div[2]/div[1]/div[1]/h1/span').text
-        browser.find_element(By.CLASS_NAME,'sc-38580b3-0 jrFCUR button icon-button').click() # ... button
+        browser.find_element(By.CLASS_NAME,'sc-38580b3-0').click() # ... button
         time.sleep(1)
         browser.find_element(By.XPATH,'/html/body/div[1]/div[2]/div/div[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div/div/ul/li[1]/button').click() # download button
         time.sleep(1)
